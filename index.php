@@ -2,4 +2,4 @@
 
 require(__DIR__."/vendor/autoload.php");
 
-require(__DIR__."RoutesCommand.php");
+require(__DIR__."/RoutesCommand.php");
