@@ -1,5 +1,11 @@
 {
     "require": {
-        "marrios/router": "^2.0"
+        "marrios/router": "^2.0",
+        "ratchet/pawl": "^0.4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
     }
 }
