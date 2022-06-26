@@ -1,0 +1,64 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "d1a49d96b076e4a9f26af9c8eea3ad19",
+    "packages": [
+        {
+            "name": "marrios/router",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/edmariooliver/Router.git",
+                "reference": "9dbdb3bf993aad9484932e68b1d21daca6ef4500"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/edmariooliver/Router/zipball/9dbdb3bf993aad9484932e68b1d21daca6ef4500",
+                "reference": "9dbdb3bf993aad9484932e68b1d21daca6ef4500",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Marrios\\Router\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Marrios Dev",
+                    "email": "edmariooliver@outlook.com"
+                }
+            ],
+            "description": "Route manager",
+            "keywords": [
+                "manager",
+                "mvc",
+                "router"
+            ],
+            "support": {
+                "issues": "https://github.com/edmariooliver/Router/issues",
+                "source": "https://github.com/edmariooliver/Router/tree/v2.0.0"
+            },
+            "time": "2022-05-14T05:02:55+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
