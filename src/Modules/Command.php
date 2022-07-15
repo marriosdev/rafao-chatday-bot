@@ -6,7 +6,7 @@ use App\Wss\WssConnection;
 
 class Command
 {
-    protected $wssConnection;
+    protected WssConnection $wssConnection;
 
     public function __construct(WssConnection $connection)
     {
