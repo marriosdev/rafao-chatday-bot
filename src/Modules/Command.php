@@ -6,11 +6,10 @@ use App\Wss\WssConnection;
 
 class Command
 {
-    protected $wssServer;
     protected $wssConnection;
 
-    public function __construct()
+    public function __construct(WssConnection $connection)
     {
-        $this->wssConnection = new WssConnection(); 
+        $this->wssConnection = $connection; 
     }
 }
